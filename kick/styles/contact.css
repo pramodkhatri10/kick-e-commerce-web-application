@@ -1,0 +1,89 @@
+
+body {
+	color:black;
+    background:white;
+	
+}
+.wrapper {
+    
+    max-width: 350px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.wrapper .h2 {
+	    text-align:center;
+		
+		
+	}
+
+.wrapper .input_field{
+	margin-bottom: 10px;
+}
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+	width: 320px;
+	border: 1px solid #808080;
+	padding: 10px;
+}
+
+.wrapper textarea {
+	height: 80px;
+	//resize: none;
+}
+
+.wrapper .btn input[type="submit"] {
+	border: 0;
+	margin-top: 15px;
+	padding: 10px;
+	width: 320px;
+	background-color: #808080;
+	color: black;
+	letter-spacing: 5px;
+	font-weight: bold;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.wrapper #error_message {
+	margin-bottom: 20px;
+	padding: 0px;
+	background: white;
+	text-align: center;
+	font-size: 14px;
+	color: red;
+	width:320px;
+	transition: all 0.5s ease;
+}
+
+.form input[type="text"]:hover,
+.form input[type="email"]:hover,
+.form input[type="tel"]:hover,
+.form input[type="text"]:hover,
+.form textarea_ {
+	transition: border-color 0.3s ease-in-out;
+	border: 1px solid grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

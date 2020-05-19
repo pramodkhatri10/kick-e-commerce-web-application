@@ -1,0 +1,163 @@
+
+.card {
+  width: 50%;
+  justify-content: center;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  box-shadow: 0 1.5em 2em -1em #999;
+  font-family: 'Avenir Next', 'Lato', sans-serif;
+  font-weight: 300;
+  margin: 1rem;
+  padding-top: 3em;
+  padding-right: 0;
+  padding-bottom: 3em;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 40rem) {
+  @supports (display: flex) {
+    .card {
+      display: flex;
+    }
+  }
+}
+
+.card__right {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  height: auto;
+}
+
+@media screen and (min-width: 40rem) {
+  .card__right {
+    width: 55%;
+    float: right;
+  }
+}
+
+@supports (display: flex) {
+  .card__right {
+    order: 1;
+  }
+}
+
+.card__left {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  height: auto;
+
+}
+
+@media screen and (min-width: 40rem) {
+  .card__left {
+    width: 45%;
+  }
+}
+
+.card__cta {
+  font-size: 1.25rem;
+  letter-spacing: 1.25px;
+  padding: 0.5rem 1rem;
+  border-radius: 1em;
+  cursor: pointer;
+  color: #FFF;
+  background-color: black;
+  transition: all 250ms ease;
+  
+  z-index: 999;
+}
+
+.card__cta:hover {
+  transform: scale(1.1);
+
+}
+.card__name {
+  letter-spacing: 1px;
+  font-weight: 300;
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+  font-size: 2.25rem;
+}
+.card__price {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+.card__image {
+  box-sizing: border-box;
+  
+  max-height: 100%;
+}
+
+.card__image::after {
+  content: '';
+  display: block;
+ 
+  top: 0;
+  left: 0; 
+  width: 100%;
+  height: 98%;
+  opacity: 0.5;
+  mix-blend-mode: screen;
+  border: 1px solid transparent;
+  border-radius: 0.5rem; 
+}
+
+@media screen and (min-width: 40rem) {
+  .card__image::after {
+     height: 97%;
+  }
+}
+
+.card__image img {
+  width: 100%;
+  background-color: #F4F4F4;
+  border: 1px solid #E8E8E8;
+  border-radius: 0.5rem;
+}
+
+/*size */
+label, #size {
+  font-size: 1.25rem;
+  letter-spacing: 1.25px;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #FFF;
+  background-color: black;
+  transition: all 250ms ease;
+
+  z-index: 999;
+}
+.size {
+  font-size: 1.25rem;
+  letter-spacing: 1.25px;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #FFF;
+  background-color: black;
+  transition: all 250ms ease;
+
+  z-index: 999;
+}
+label, #sort {
+  font-size: 1.25rem;
+  letter-spacing: 1.25px;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #FFF;
+  background-color: black;
+  transition: all 250ms ease;
+ 
+  z-index: 999;
+}
+
+
+
