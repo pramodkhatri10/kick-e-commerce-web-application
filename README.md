@@ -6,7 +6,7 @@ To successfully built an E-commerce website using HTML, CSS, JavaSCript, PHP, My
 
 # Prerequisites
 WE have following options:
-1. We have to setup of Virtual Box Machine and set up LAMP server. Also, it will be easier to connect MySQL database with the server phpmyadmin through XAMPP. We can use any source code editor for writing code, I used Visual Studio Code on my MacBook.Make sure the main folder and sql file are in /www/var/html
+1. Have to setup of Virtual Box Machine and set up LAMP server. Also, it will be easier to connect MySQL database with the server phpmyadmin through XAMPP. We can use any source code editor for writing code, I used Visual Studio Code on my MacBook.Make sure the main folder and sql file are in /www/var/html
  OR
 2. Directly Work from the MacBook and run phpmyadmin through XAMPP. It should work fine. Make sure the main folder and sql file are in htdocs inside XAMPP folder in Application.
 
@@ -16,10 +16,10 @@ WE have following options:
 We developed the structure of the page *(Header, Navigation Bar, main or article, aside and footer)* of the webpage using HTMl5.
 
 ### CSS
-We used CSS to control the webpages appearances including borders, margin, padding, , grids, flexbox, colors, fonts, adjutsment of elements and overall laying the contents in the page so that it looks organized and beautiful.
+Used CSS to control the webpages appearances including borders, margin, padding, , grids, flexbox, colors, fonts, adjutsment of elements and overall laying the contents in the page so that it looks organized and beautiful.
 
 ### JavaSCript
-We used JavaScript in our specific parts of the webpages *(contact, account login & signup, payment)* to provide functionality like verification and validation to the user input.
+Used JavaScript in our specific parts of the webpages *(contact, account login & signup, payment)* to provide functionality like verification and validation to the user input.
 
 > ## Back-End
 ### PHP&MySQL
