@@ -1,8 +1,10 @@
 # KICK:An E-Commerce Website
 An e-commerce website which sells third party shoes at minimum price. 
 
-# GOAL
-To successfully built an E-commerce website using HTML, CSS, JavaSCript in the front-end, MySQL database and PHP for server side  and let the user buy the shoes from the website.
+![icon](https://user-images.githubusercontent.com/58201393/127955947-fe2cfdd6-8056-4c6d-a109-63dac63a3fed.png)
+<img width="1366" alt="Screen Shot 2021-08-02 at 9 07 29 PM" src="https://user-images.githubusercontent.com/58201393/127956169-e010fd1e-e3ec-4258-ac3f-bddec043c599.png">
+# Preview
+Built an E-commerce website using HTML, CSS, JavaSCript in the front-end, MySQL database and PHP for server side  and let the user buy the shoes from the website.
 
 # Prerequisites
 1. Setup virtual box machine and set up LAMP server. Connect MySQL database with the server phpmyadmin through XAMPP.
