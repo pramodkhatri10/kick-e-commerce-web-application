@@ -2,18 +2,17 @@
 An e-commerce website which sells third party shoes at minimum price. 
 
 # GOAL
-To successfully built an E-commerce website using HTML, CSS, JavaSCript, PHP, MySQL, and let the user buy the shoes from the website. Ensuring, database connection and interation with server.
+To successfully built an E-commerce website using HTML, CSS, JavaSCript in the front-end, MySQL database and PHP for server side  and let the user buy the shoes from the website.
 
 # Prerequisites
-WE have following options:
-1. Have to setup of Virtual Box Machine and set up LAMP server. Also, it will be easier to connect MySQL database with the server phpmyadmin through XAMPP. We can use any source code editor for writing code, I used Visual Studio Code on my MacBook.Make sure the main folder and sql file are in /www/var/html
+1. Setup virtual box machine and set up LAMP server. Connect MySQL database with the server phpmyadmin through XAMPP.
  OR
-2. Directly Work from the MacBook and run phpmyadmin through XAMPP. It should work fine. Make sure the main folder and sql file are in htdocs inside XAMPP folder in Application.
+2. Directly run phpmyadmin through XAMPP (main and sql in htdocs inside XAMPP).
 
 # Getting Started
 > ## Front-End
 ### HTML
-We developed the structure of the page *(Header, Navigation Bar, main or article, aside and footer)* of the webpage using HTMl5.
+Developed the structure of the page *(Header, Navigation Bar, main or article, aside and footer)* of the webpage using HTMl5.
 
 ### CSS
 Used CSS to control the webpages appearances including borders, margin, padding, , grids, flexbox, colors, fonts, adjutsment of elements and overall laying the contents in the page so that it looks organized and beautiful.
